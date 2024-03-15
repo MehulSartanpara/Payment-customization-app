@@ -1,0 +1,19 @@
+query RunInput {
+  cart {
+    buyerIdentity {
+      customer {
+        id
+        hasAnyTag(tags: ["PAYMENT1", "PAYMENT2"])
+      }
+    }
+    cost {
+      totalAmount {
+        amount
+      }
+    }
+  }
+  paymentMethods {
+    id
+    name
+  }
+}
