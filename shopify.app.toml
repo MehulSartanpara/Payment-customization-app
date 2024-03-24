@@ -2,7 +2,7 @@
 
 client_id = "ff6eddc7ea21f616d7a12123853dc7e7"
 name = "Payment Customization App"
-application_url = "https://subsidiary-solid-reservation-paypal.trycloudflare.com"
+application_url = "https://petersburg-apple-shades-qualifications.trycloudflare.com"
 embedded = true
 
 [build]
@@ -16,9 +16,9 @@ scopes = "read_payment_customizations,write_payment_customizations,write_product
 
 [auth]
 redirect_urls = [
-  "https://subsidiary-solid-reservation-paypal.trycloudflare.com/auth/callback",
-  "https://subsidiary-solid-reservation-paypal.trycloudflare.com/auth/shopify/callback",
-  "https://subsidiary-solid-reservation-paypal.trycloudflare.com/api/auth/callback"
+  "https://petersburg-apple-shades-qualifications.trycloudflare.com/auth/callback",
+  "https://petersburg-apple-shades-qualifications.trycloudflare.com/auth/shopify/callback",
+  "https://petersburg-apple-shades-qualifications.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

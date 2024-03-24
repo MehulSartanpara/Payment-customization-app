@@ -31,7 +31,7 @@ export function run(input) {
     console.log('customerHasTags',customerHasTags);
     if (customerHasTags) {
       // You can use STDERR for debug logs in your function
-      console.error("SHOW Net 10 days PAYMENT METHOD");
+      console.error("SHOW Net 30 days PAYMENT METHOD");
       return NO_CHANGES;
     }
   }
@@ -39,7 +39,7 @@ export function run(input) {
 
   // Find the payment method to hide
   const hidePaymentMethod = input.paymentMethods
-    .find(method => method.name.includes("Net 10 days"));
+    .find(method => method.name.includes("Net 30 days"));
 
   if (!hidePaymentMethod) {
     return NO_CHANGES;

@@ -3,7 +3,7 @@ query RunInput {
     buyerIdentity {
       customer {
         id
-        hasAnyTag(tags: ["Net10days"])
+        hasAnyTag(tags: ["Net30days"])
       }
     }
     cost {
